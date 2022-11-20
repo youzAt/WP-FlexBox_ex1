@@ -1,0 +1,331 @@
+/* Start Project */
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--color-primary-dark: #081d43;
+	--color-primary-light: #6c7890;
+}
+
+body{
+	font-family: "TTNorms";
+	line-height: 2rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+.container {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.btn {
+	color: white;
+	padding: 0.8rem 1.5rem;
+	border-radius: 0.5rem;
+	line-height: normal;
+}
+
+/* Header - Top*/
+
+.header-top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-logo {
+	margin-right: 2rem;
+}
+.nav-logo > a {
+	display: flex;
+	align-items: center;
+}
+.menu {
+	display: flex;
+}
+
+.menu__link {
+	padding: 0 1rem;
+	color: var(--color-primary-dark);
+}
+
+.header__link {
+	background-color: #0050c8;
+}
+
+/* Header - Bottom */
+
+.header-bottom {
+	margin-top: 6rem;
+	margin-bottom: 3rem;
+}
+
+.header-bottom .header-content {
+	display: flex;
+	align-items: center;
+}
+
+.header-content__left {
+	width: 50%;
+}
+
+.header-content__wrapper {
+	max-width: 28rem;
+}
+
+.header-content__title {
+	color: var(--color-primary-dark);
+	font-weight: normal;
+	font-family: "TTnorms medium";
+	line-height: 2.5rem;
+}
+
+.header-content__text {
+	color: var(--color-primary-light);
+
+	margin-bottom: 1.5em;
+}
+
+.header-content__links {
+	display: flex;
+}
+
+.header-content__link {
+	display: block;
+	width: 10rem;
+	text-align: center;
+	margin-right: 0.8rem;
+}
+.header-content__link:nth-child(1) {
+	background-color: #87bc25;
+}
+.header-content__link:nth-child(2) {
+	background-color: #2f5bea;
+}
+
+.header-content__right {
+	width: 50%;
+}
+
+.header-content__image {
+	width: 100%;
+}
+
+/* Main */
+
+.main {
+	padding-top: 6rem;
+}
+
+/* Works */
+
+.works {
+	text-align: center;
+}
+
+.works__text {
+	color: var(--color-primary-light);
+}
+
+.works__title {
+	color: var(--color-primary-dark);
+	margin-top: 0.3rem;
+	font-family: "TTnorms medium";
+	font-weight: normal;
+}
+
+.works-content {
+	display: flex;
+	justify-content: space-around;
+	margin: 3.5rem 0;
+}
+.works-content__item {
+	max-width: 16rem;
+}
+
+.works-content__title {
+	color: var(--color-primary-dark);
+	margin-bottom: 1rem;
+}
+
+.works-content__text {
+	color: var(--color-primary-light);
+}
+
+.works__image {
+	max-width: 31rem;
+	margin: 0 auto;
+}
+
+.works__image img {
+	width: 100%;
+}
+
+/* Person Comments */
+.person-comments {
+	background: #2f5bea;
+	text-align: center;
+	color: white;
+	padding: 2rem 0;
+}
+.person-comments__title {
+	font-family: "TTnorms medium";
+	font-weight: normal;
+	margin: 1rem 0;
+}
+.person-comments__text {
+	font-family: "TTnorms light";
+}
+.comments-container{
+	max-width: 65rem;
+	margin: 3.5rem auto 0 auto;
+}
+.comments {
+	display: flex;
+}
+.comment {
+	background-color: white;
+	border-radius: .5rem;
+	margin: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 18rem;
+	flex-basis: 20rem;
+}
+.comment__content {
+	padding: 1.5rem;
+	text-align: justify;
+
+}
+.comment__body {
+	font-family: "Times Roman Italic";
+	color: #7E8085;
+	line-height: 1.5rem;
+	max-width: 100%;
+}
+.comment__info {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid #E8EBEF;
+	padding: 0.8rem 1.2rem;
+}
+
+.comment__person {
+	margin-left: 0.5rem;
+	color: black;
+}
+
+.companies__list{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5rem;
+}
+.companies__image{
+	margin: 1rem;
+	display: flex;
+	align-items: center;
+}
+.companies__image img{
+	display: block;
+}
+/* portfolio */
+
+.portfolio{
+	text-align: center;
+	padding: 2rem 0;
+}
+.portfolio .images{
+	padding: 60px 0; 
+	display: flex;
+	gap: 32px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* footer */
+.main-footer {
+	background: #2f5bea;
+	color: white;
+	padding: 2rem 0;
+	height: 150px;
+	
+}
+.main-footer .container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+.email-box{
+	display: flex;
+	align-items: center;
+}
+
+.email-box input{
+	border: none;
+	outline: none;
+	padding: 16px 65px 16px 16px;
+	font-family: 'TTNorms';
+	width: 300px;
+
+}
+.email-box button{
+	border: none;
+	outline: none;
+	background-color: #2f5bea;
+	width: 55px;
+	height: 44px;
+	margin-left: -58px;
+}
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		max-width: 540px;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+	.container {
+		max-width: 100%;
+	}
+}
